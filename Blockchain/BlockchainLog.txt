@@ -1,0 +1,218 @@
+(base) evanwright@Evans-MacBook-Pro-2 Blockchain Work % javac -cp "gson-2.8.2.jar" Blockchain.java
+Note: Blockchain.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(base) evanwright@Evans-MacBook-Pro-2 Blockchain Work % java -cp ".:gson-2.8.2.jar" Blockchain 0
+Welcome to my simple blockchain program
+
+Running now
+
+Process number: 0 Ports: 4710 4820
+
+Using input file: BlockInput0.txt
+
+Timestamp:  2022-11-01.19:18:10.0
+Timestamp:  2022-11-01.19:18:11.0
+Timestamp:  2022-11-01.19:18:12.0
+Timestamp:  2022-11-01.19:18:13.0
+
+Unverified block: BlockRecord@312b1dae
+Hash: 5A40AB4127E50FD55986CCBB86BB6ED7D8450BCB5D639358314A0D6E2E31C9F2
+First 16 bits in decimal: 23104
+23104 is not less than 20,000. Keep trying!
+Hash: 1D0706F1C65A35C875E2A8B678001659AE64097291098E753131DD3A733BBE1C
+First 16 bits in decimal: 7431
+Block record: BlockRecord@312b1dae has been solved!
+Proof of work: K4R0S5YN
+
+Unverified block: BlockRecord@4769b07b
+Hash: 71DC565070AE2FAC6B735A23B75C8696CEB4FB9CF9B137DEB9BB1BAB72C49C66
+First 16 bits in decimal: 29148
+29148 is not less than 20,000. Keep trying!
+Hash: B8882CE6BB7D5E57E85D1529EC1339A78F80AABD0A1FCF8888FAB7C525820065
+First 16 bits in decimal: 47240
+47240 is not less than 20,000. Keep trying!
+Hash: 8A36ADAB56FEC817E8E069D43E71A0C12048F3E59575A57EA7BAB42ABE60CE1C
+First 16 bits in decimal: 35382
+35382 is not less than 20,000. Keep trying!
+Hash: 19850DDFA0D9B2CD52621A93B20639BF2F074197478C528528B41ED092BAC1EB
+First 16 bits in decimal: 6533
+Block record: BlockRecord@4769b07b has been solved!
+Proof of work: VSSKU2BU
+
+Unverified block: BlockRecord@cc34f4d
+Hash: 25F4E402EC720872CB1003B61C3AAAB6F56C34578ACDE3CE5890D3A193F89152
+First 16 bits in decimal: 9716
+Block record: BlockRecord@cc34f4d has been solved!
+Proof of work: EOB5ADPQ
+
+Unverified block: BlockRecord@17a7cec2
+Hash: E641D5036A066ED87E5DA804D51E0C10A3E07FC84CEACA1A313B325875084ED2
+First 16 bits in decimal: 58945
+58945 is not less than 20,000. Keep trying!
+Hash: 737FF48FF1B0A326E641208C3F7AC6EE17C31EEBC64986221A1A18EBAB83CD95
+First 16 bits in decimal: 29567
+29567 is not less than 20,000. Keep trying!
+Hash: F0B504CB042FE112891F681DA1FBBCEE603E5B4E0B289F2F8A89DE2B8AFDF889
+First 16 bits in decimal: 61621
+61621 is not less than 20,000. Keep trying!
+Hash: 2C1452A9A51F9D77E36FF5204B3EB5B34F1754492E86A4892D0BBCB88C4485DB
+First 16 bits in decimal: 11284
+Block record: BlockRecord@17a7cec2 has been solved!
+Proof of work: NN83UEC8
+
+Unverified block: BlockRecord@65b3120a
+Hash: 37E3949FB75E5466AE4017BFCACD5298D22144D7D964CBAA5327E4955668932A
+First 16 bits in decimal: 14307
+Block record: BlockRecord@65b3120a has been solved!
+Proof of work: FC0WRQVV
+
+Verfified blocks: 
+[BlockRecord@312b1dae, BlockRecord@4769b07b, BlockRecord@cc34f4d, BlockRecord@17a7cec2, BlockRecord@65b3120a]
+
+(base) evanwright@Evans-MacBook-Pro-2 Blockchain Work % java -cp ".:gson-2.8.2.jar" Blockchain 1
+Welcome to my simple blockchain program
+
+Running now
+
+Process number: 1 Ports: 4711 4821
+
+Using input file: BlockInput1.txt
+
+Timestamp:  2022-11-01.19:19:27.1
+Timestamp:  2022-11-01.19:19:28.1
+Timestamp:  2022-11-01.19:19:29.1
+Timestamp:  2022-11-01.19:19:30.1
+
+Unverified block: BlockRecord@312b1dae
+Hash: B14951C06BC1A824AEC22D24AE6A3F516E7C17AD09669A0AAACE4C67DC77B0F9
+First 16 bits in decimal: 45385
+45385 is not less than 20,000. Keep trying!
+Hash: 86354041F9FDCBF14753D4C3E2ACD0C7026F57E616D08AA0469A7FE51F3ECC43
+First 16 bits in decimal: 34357
+34357 is not less than 20,000. Keep trying!
+Hash: AA157E9D8F0510FA305C34071BE671E4F0EAAD787AF73EF5477398A2ED519709
+First 16 bits in decimal: 43541
+43541 is not less than 20,000. Keep trying!
+Hash: 13639F16D8B3810075AD6B81765623F727667D763C5000B8BE75F852459DB629
+First 16 bits in decimal: 4963
+Block record: BlockRecord@312b1dae has been solved!
+Proof of work: XFFJWJYX
+
+Unverified block: BlockRecord@4769b07b
+Hash: 1156238E8DEB384A34E8BA5904FE834EF130B4B45A64A268D3794F4080FD452F
+First 16 bits in decimal: 4438
+Block record: BlockRecord@4769b07b has been solved!
+Proof of work: 06P43EZL
+
+Unverified block: BlockRecord@cc34f4d
+Hash: E474AE7AF2E3271FBD2B54D07F1BF01134FE87942F567B0334AE093989603460
+First 16 bits in decimal: 58484
+58484 is not less than 20,000. Keep trying!
+Hash: 8B8E3EAFF0BCC062EEDA41FB26172C34CF21D6DD47DCD71CC4776BC665F6D899
+First 16 bits in decimal: 35726
+35726 is not less than 20,000. Keep trying!
+Hash: 3AD133493068DC8ACD708638727879E77AB99822881BC7EB3825F717E82892C2
+First 16 bits in decimal: 15057
+Block record: BlockRecord@cc34f4d has been solved!
+Proof of work: 0ZK91S42
+
+Unverified block: BlockRecord@17a7cec2
+Hash: 41C11F965A4183F1710C931D8E9409079ED9AE76EB7216593BB0D3935480599A
+First 16 bits in decimal: 16833
+Block record: BlockRecord@17a7cec2 has been solved!
+Proof of work: IPJ4TAY4
+
+Unverified block: BlockRecord@65b3120a
+Hash: 1178A0B75467F82CB74B7E2BF9C78AD5FCA4826966CE451F8754A2DA634EC091
+First 16 bits in decimal: 4472
+Block record: BlockRecord@65b3120a has been solved!
+Proof of work: JQJBU9IA
+
+Verfified blocks: 
+[BlockRecord@312b1dae, BlockRecord@4769b07b, BlockRecord@cc34f4d, BlockRecord@17a7cec2, BlockRecord@65b3120a]
+
+(base) evanwright@Evans-MacBook-Pro-2 Blockchain Work % java -cp ".:gson-2.8.2.jar" Blockchain 2
+Welcome to my simple blockchain program
+
+Running now
+
+Process number: 2 Ports: 4712 4822
+
+Using input file: BlockInput2.txt
+
+Timestamp:  2022-11-01.19:20:10.2
+Timestamp:  2022-11-01.19:20:11.2
+Timestamp:  2022-11-01.19:20:12.2
+Timestamp:  2022-11-01.19:20:13.2
+
+Unverified block: BlockRecord@312b1dae
+Hash: F5881609DFE22181108ED552DE3E874F8F111AC495A501146392CF08D2FBC9E0
+First 16 bits in decimal: 62856
+62856 is not less than 20,000. Keep trying!
+Hash: D59614A30BA9F4C55315412823BE14874D87B08B1815745756D938DF5D036E23
+First 16 bits in decimal: 54678
+54678 is not less than 20,000. Keep trying!
+Hash: A249B38B4DBEF9051BE04A385BC09BF4E8D879D24BCBFA596BF7E8B7F328590D
+First 16 bits in decimal: 41545
+41545 is not less than 20,000. Keep trying!
+Hash: 11E6B689C18D4C00199C70316BF6EC007B3A0669361280C2B6702BFC1441C6E0
+First 16 bits in decimal: 4582
+Block record: BlockRecord@312b1dae has been solved!
+Proof of work: ZLDZY8IK
+
+Unverified block: BlockRecord@4769b07b
+Hash: CCEF5FEB8E86CC6BFF92367F93DC170D459AF3E358206B3FE16BD9C40517545D
+First 16 bits in decimal: 52463
+52463 is not less than 20,000. Keep trying!
+Hash: AE2E82AA6549842B48FF3A736BD3AA077A268F9535F697596924AD79D1EFBAB8
+First 16 bits in decimal: 44590
+44590 is not less than 20,000. Keep trying!
+Hash: 709B706F4FC59408D04B65C71D9C790863C0FCBA056BE9E13D419EB12F60DB55
+First 16 bits in decimal: 28827
+28827 is not less than 20,000. Keep trying!
+Hash: E5130A595E2434C7D9B4769CDF24C3DC32680BC2AC337216A09887CB88A01959
+First 16 bits in decimal: 58643
+58643 is not less than 20,000. Keep trying!
+Hash: 100C6B530D57C84055C117AD7783C0571537D4715EEE4CC964700312AB24967B
+First 16 bits in decimal: 4108
+Block record: BlockRecord@4769b07b has been solved!
+Proof of work: SD60AMSR
+
+Unverified block: BlockRecord@cc34f4d
+Hash: 8ABE0FE1286EC5FFB5D2530D44300B7A0FCDA3DE1492033BE20B07A0A7025EF3
+First 16 bits in decimal: 35518
+35518 is not less than 20,000. Keep trying!
+Hash: 41167B7EDAD21B8C5B75AEE78026A1F713E25A10DE3E8B14530565D4DF003BA5
+First 16 bits in decimal: 16662
+Block record: BlockRecord@cc34f4d has been solved!
+Proof of work: W3BYG1NH
+
+Unverified block: BlockRecord@17a7cec2
+Hash: E1B31E731461D0653CA21E7EC91BCDB7E504C2FB724611971B1FBD8FC249256E
+First 16 bits in decimal: 57779
+57779 is not less than 20,000. Keep trying!
+Hash: CDDE8D81F522A33AC75CFD078FAA3C23297BDE29E326497DB51B3FCCC72CB228
+First 16 bits in decimal: 52702
+52702 is not less than 20,000. Keep trying!
+Hash: 6FBCB9B145412E128807E1E092146B9C5BB785E7516760C2809916BFD57F5A29
+First 16 bits in decimal: 28604
+28604 is not less than 20,000. Keep trying!
+Hash: 20C7BC6062976C060CFC9C459C3B7596F0C68847A4D989553E3B7779D5CCFEE2
+First 16 bits in decimal: 8391
+Block record: BlockRecord@17a7cec2 has been solved!
+Proof of work: UB3O52UK
+
+Unverified block: BlockRecord@65b3120a
+Hash: 8CF3755F433A025C037F7128028AA1CDD04577C714A0F0DD9692E195F0EF0937
+First 16 bits in decimal: 36083
+36083 is not less than 20,000. Keep trying!
+Hash: 6C4849F23251BB67FE14FA5CF58EF21792413B01B6FF6BC76184D12337AA9C47
+First 16 bits in decimal: 27720
+27720 is not less than 20,000. Keep trying!
+Hash: 3866A8DE5C0444F112504F1C3FB6AFF42B0DBC0718B4E3D942AB785BF0AEFBF9
+First 16 bits in decimal: 14438
+Block record: BlockRecord@65b3120a has been solved!
+Proof of work: 4DO218EC
+
+Verfified blocks: 
+[BlockRecord@312b1dae, BlockRecord@4769b07b, BlockRecord@cc34f4d, BlockRecord@17a7cec2, BlockRecord@65b3120a]
