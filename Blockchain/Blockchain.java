@@ -1,3 +1,5 @@
+//AUTHORS: Evan Wright, Professor Clark Elliott of Depaul University
+
 /* Import all needed libraries. Do not mind the potential errors on google.gson imports, they will not cause
     any issues upon correct compilation */
 import java.io.FileWriter;
